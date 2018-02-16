@@ -20,9 +20,9 @@ git clone https://github.com/Ahmid/employee-dir.git
 cd employee-dir && npm install
 ```
 
-3. Configure the CosmosDB Server Setting
+3. Configure the CosmosDB Server Setting (Only if you wish to test with different database)
 
-Rename `server/env/environment-change-me.js` to `environment.js` and change the `cosmosPort`, `dbName` and `key` to match your CosmosDB environment.
+Open /env/environment.js and Change the `cosmosPort`, `dbName` and `key` to match your CosmosDB environment.
 
 ```javascript
 // server/env/environment.js
