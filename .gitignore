@@ -58,7 +58,7 @@ typings/
 .env
 
 # Secret Stuff
-environment/environment.js
+./server/env/environment.js
 
 .DS_Store
 
