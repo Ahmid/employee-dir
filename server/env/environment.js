@@ -1,6 +1,6 @@
-const cosmosPort = 10255; // replace with your port
-const dbName = 'react-cosmos';
-const key = 'TvI5lHOaBzQ1IrjI7l3DOdhziQAhVsUOMMP1GYiStxsAt2PqmOgbYVxIxCM9s85RpN3GrlsficjmpHfrTlAixw==';
+const cosmosPort = 1234; // replace with your port
+const dbName = 'replace with your db name';
+const key = 'replace with your key';
 
 module.exports = {
   cosmosPort,
