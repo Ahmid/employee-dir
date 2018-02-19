@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import "./App.css";
 import api from './api';
 import Employees from "./components/Employees";
 

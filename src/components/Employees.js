@@ -89,13 +89,15 @@ class Employees extends Component {
         .create(this.state.selectedEmployee)
         .then(result => {
           console.log('Successfully created!');
-
+          
           employees.push(this.state.selectedEmployee);
           this.setState({
             employees: employees,
             selectedEmployee: null,
             addingEmployee: false
           });
+          this.componentDidMount();
+          this.state.employees=employees;
         })
         .catch(err => {
           console.log(err);
