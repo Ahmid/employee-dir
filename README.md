@@ -1,5 +1,5 @@
 # employee-dir
-Employee directory web application that's comprised of a front and back end built using modern tool.
+Employee directory web application that's comprised of a ReactJS frond-end and NodeJS back-end.
 
 ## Prerequisites
 
